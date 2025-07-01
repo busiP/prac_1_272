@@ -26,7 +26,7 @@ namespace prac_1_272.Controllers
             students.Add(new Models.students { StudentNum = "u23691745", Name = "Mike", Surname = "Wazowski", Email = "mwazow@minc.com" });
             students.Add(new Models.students { StudentNum = "U22104789", Name = "Jenna", Surname = "Mackenzie", Email = "jmack@gmail.com" });
 
-            return View();
+            return View(students);
         }
     }
 }
