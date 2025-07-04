@@ -3,9 +3,84 @@
 <head>
     <meta charset="utf-8" />
     <title>Austin Martinez</title>
+    <link rel="stylesheet" href="../Content/myStyles.css" />
+
 </head>
 <body>
 
-    <h2 class="nameHead">Person 4 - Austin Martinez</h2>
+    <div class="container">
+        <h2 class="nameHead">Person 5 - Austin Martinez</h2>
+        <hr />
+        <!--NAV BAR:--------------------------------------------------------------------------------------------------------------->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="main.html">MAIN</a>
+                        <a class="nav-link" href="../Views/Student/StudentList.cshtml">LIST</a>
+                        <a class="nav-link" href="person1.html">Person 1</a>
+                        <a class="nav-link" href="person2.html">Person 2</a>
+                        <a class="nav-link" href="person3.html">Person 3</a>
+                        <a class="nav-link" id="active-nav" href="person4.html">Person 4</a>
+                        <a class="nav-link" href="person5.html">Person 5</a>
+                        <a onclick="javascript:history.back()">BACK</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!------------------------------------------------------------------------------------------------------------------------->
+        <hr />
+
+        <!--BIO:------------------------------------------------------------------------------------------------------------------->
+        <div class="inner-container">
+            <h3 class="content-header">Biography and Background</h3>
+            <div class="bio-flex">
+                <img src="images/austin.png" class="bio-img" width="250" />
+                <p>Austin Martinez is a forward-thinking professional with a background in software engineering and product development. Known for his innovative mindset and problem-solving skills, Austin has led projects ranging from mobile apps to scalable web platforms. He’s passionate about clean code, intuitive design, and building tech that makes a difference. When he's not developing new solutions, Austin enjoys cycling, music production, and mentoring aspiring developers.</p>
+
+            </div>
+
+        </div>
+        <!------------------------------------------------------------------------------------------------------------------------->
+        <br />
+        <div class="inner-container">
+                <h3 class="content-header">Hobbies</h3>
+                <div class="bio-flex-right">
+                    <img src="images/hobby4.png" class="bio-img-right" width="200"/>
+                    <p>Austin spends his free time cycling, producing electronic music, and exploring new JavaScript frameworks. He’s also a big fan of coffee shops, photography walks, and mentoring junior devs in the community.</p>
+                </div>
+        </div>
+        <br />
+        <div class="inner-container">
+            <h3 class="content-header">Projects and Languages</h3>
+            <p>The following lists Austin's projects and proficient languages</p>
+
+            <div class="list-container">
+                <div class="list-section">
+                    <h4 class="content-header">Projects</h4>
+                    <ul class="list">
+                        <li>Collaborative code editor</li>
+                        <li>Spotify playlist generator</li>
+                        <li>Markdown blog engine</li>
+                    </ul>
+                </div>
+
+                <div class="list-section">
+                    <h4 class="content-header">Languages</h4>
+                    <ul class="list">
+                        <li>React</li>
+                        <li>Javascript</li>
+                        <li>Jav</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--SCRIPTS-->
+    <script src="../Scripts/jquery-3.7.0.js"></script>
+    <script src="../Scripts/bootstrap.js"></script>
 </body>
 </html>

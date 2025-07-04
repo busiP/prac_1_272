@@ -6,7 +6,7 @@
 
 <h2>List of students</h2><!--STEP 3: ADD VIEW: Added as list-->
 
-<p>
+<p class="create-btn">
     @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
@@ -44,7 +44,7 @@
         </td>
 
         <td>
-            <a href="@Url.Content(item.myLink)" onclick="window.location'@Url.Action("StudentList", "StudentController")'" class="custom-btn">LINK</a>
+            <a href="@Url.Content(item.myLink)" onclick="window.location'@Url.Action("StudentList", "StudentController")'" class="custom-btn">Link</a>
         </td>
     </tr>
 }

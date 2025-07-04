@@ -20,7 +20,7 @@ namespace prac_1_272.Models
         [Display(Name = "Email")]
         public string Email { get; set; }
 
-        [Display(Name = "Link to personal page")]
+        [Display(Name = "Personal Link")]
         public string myLink { get; set; }
     }
 }

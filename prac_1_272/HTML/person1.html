@@ -3,11 +3,84 @@
 <head>
     <meta charset="utf-8" />
     <title>Ben Jovie</title>
-    <link rel="stylesheet" href="../myStyles.css" />
+    <link rel="stylesheet" href="../Content/myStyles.css" />
 </head>
 <body>
 
-    <h2 class="nameHead">Person 1 - Ben Jovie</h2>
+    <div class="container">
+        <h2 class="nameHead">Person 1 - Ben Jovie</h2>
+        <hr />
+        <!--NAV BAR:--------------------------------------------------------------------------------------------------------------->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
 
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="main.html">MAIN</a>
+                        <a class="nav-link" href="/Student/StudentList">LIST</a>
+                        <a class="nav-link" id="active-nav" href="person1.html">Person 1</a>
+                        <a class="nav-link" href="person2.html">Person 2</a>
+                        <a class="nav-link" href="person3.html">Person 3</a>
+                        <a class="nav-link" href="person4.html">Person 4</a>
+                        <a class="nav-link" href="person5.html">Person 5</a>
+                        <a onclick="javascript:history.back()">BACK</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!------------------------------------------------------------------------------------------------------------------------->
+        <hr />
+
+
+        <div class="inner-container">
+            <h3 class="content-header">Biography and Background</h3>
+            <div class="bio-flex">
+                <img src="images/ben.png" class="bio-img" width="250" />
+                <p>Ben Jovie is a creative technologist and entrepreneur with a passion for building innovative digital solutions. With a background in web development, UI/UX design, and startup strategy, Ben has spent the last decade helping businesses and creators bring their ideas to life online. His work blends design thinking with technical expertise, resulting in user-friendly products that drive results. When he's not coding or collaborating with clients, Ben enjoys exploring emerging tech trends, photography, and mentoring new developers.</p>
+            </div>
+        </div>
+
+
+        <br />
+        <div class="inner-container">
+            <h3 class="content-header">Hobbies</h3>
+            <div class="bio-flex-right">
+                <img src="images/hobby1.png" class="bio-img-right" width="200"/>
+                <p>Ben enjoys exploring new tech trends, experimenting with creative coding projects, and capturing street photography. In his downtime, he’s often mentoring aspiring developers, attending local startup events, or cycling through city trails.</p>
+            </div>
+        </div>
+        <br/>
+        <div class="inner-container">
+            <h3 class="content-header">Projects and Languages</h3>
+            <p>The following lists Ben's projects and proficient languages</p>
+
+            <div class="list-container">
+                <div class="list-section">
+                    <h4 class="content-header">Projects</h4>
+                    <ul class="list">
+                        <li>Recipe sharing platform</li>
+                        <li>Task tracker app</li>
+                        <li>Personal portfolio web app</li>
+                    </ul>
+                </div>
+
+                <div class="list-section">
+                    <h4 class="content-header">Languages</h4>
+                    <ul class="list">
+                        <li>Java</li>
+                        <li>Javascript</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!--SCRIPTS-->
+    <script src="../Scripts/jquery-3.7.0.js"></script>
+    <script src="../Scripts/bootstrap.js"></script>
 </body>
 </html>
